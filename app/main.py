@@ -8,7 +8,7 @@ def main():
 
     # Uncomment this to pass the first stage
     
-server_socket = socket.create_server(("localhost", 4221))
+server_socket = socket.create_server(("localhost", 8080))
 server_socket.accept() # wait for client
 
 
